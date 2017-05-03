@@ -17,6 +17,8 @@ metadata {
         definition (name: "Virtual Switch", namespace: "juano2310", author: "Juan Risso") {
         capability "Switch"
         capability "Refresh"        
+        capability "Sensor"
+		capability "Actuator"
     }
 
 	// simulator metadata
