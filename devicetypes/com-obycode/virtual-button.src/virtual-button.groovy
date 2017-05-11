@@ -19,6 +19,8 @@ metadata {
 	definition (name: "Virtual Button", namespace: "com.obycode", author: "obycode") {
 		capability "Button"
 		capability "Sensor"
+        capability "Actuator"
+        capability "Refresh"
 
 		command "push"
 		command "hold"
